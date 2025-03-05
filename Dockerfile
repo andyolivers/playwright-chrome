@@ -31,7 +31,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 RUN playwright install chromium
 
-COPY script.py .
+COPY main.py .
 
 ENV DISPLAY=:99
 
